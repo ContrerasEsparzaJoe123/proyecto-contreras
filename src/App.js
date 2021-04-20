@@ -6,6 +6,7 @@ import Servicios from "./components/Servicios";
 import Ubicacion from "./components/Ubicacion";
 import Nosotros from "./components/Nosotros";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Carusel from "./components/Carusel";
 
 function App() {
   return (
@@ -40,6 +41,8 @@ function App() {
           <Route path="/" exact>
             <center>
               <h1>Este es el root</h1>
+              <Carusel />
+              
             </center>
           </Route>
           <Route path="/login" exact component={Login} />

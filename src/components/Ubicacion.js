@@ -1,4 +1,7 @@
 import React from "react";
+import Map from "./Mapbox";
+
+
 
 class Ubicacion extends React.Component {
   render() {
@@ -6,6 +9,7 @@ class Ubicacion extends React.Component {
       <div>
         <center>
           <h1>Componente de Ubicacion</h1>
+          <Map/>
         </center>
       </div>
     );
