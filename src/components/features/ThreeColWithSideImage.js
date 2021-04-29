@@ -61,7 +61,7 @@ const DecoratorBlob = styled(SvgDecoratorBlob3)`
   ${tw`pointer-events-none absolute right-0 bottom-0 w-64 opacity-25 transform translate-x-32 translate-y-48 `}
 `;
 
-export default ({
+const Services = ({
   cards = null,
   heading = "Amazing Features",
   subheading = "Features",
@@ -144,3 +144,4 @@ export default ({
     </Container>
   );
 };
+export default Services;

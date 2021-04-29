@@ -1,5 +1,5 @@
 import React from "react";
-import FAQ from "./faqs/SingleCol";
+import PF from "./faqs/SingleCol";
 import tw from "twin.macro";
 
 class Ayuda extends React.Component {
@@ -9,7 +9,7 @@ class Ayuda extends React.Component {
     return (
       <div>
         <center>
-          <FAQ
+          <PF
             subheading={<Subheading>FAQS</Subheading>}
             heading={
               <>

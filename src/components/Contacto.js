@@ -1,12 +1,12 @@
 import React from "react";
-import Hero from "./hero/TwoColumnWithInput";
+import Info from "./hero/TwoColumnWithInput";
 
 class Contacto extends React.Component {
   render() {
     return (
       <div>
         <center>
-          <Hero roundedHeaderButton={true} />
+          <Info roundedHeaderButton={true} />
         </center>
       </div>
     );

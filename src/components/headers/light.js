@@ -57,7 +57,7 @@ export const DesktopNavLinks = tw.nav`
   hidden lg:flex flex-1 justify-between items-center
 `;
 
-export default ({
+let Ma = ({
   roundedHeaderButton = false,
   logoLink,
   links,
@@ -173,3 +173,4 @@ const collapseBreakPointCssMap = {
     mobileNavLinksContainer: tw`lg:hidden`,
   },
 };
+export default Ma;

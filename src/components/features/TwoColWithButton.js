@@ -44,7 +44,7 @@ const PrimaryButton = styled(PrimaryButtonBase)((props) => [
   props.buttonRounded && tw`rounded-full`,
 ]);
 
-export default ({
+const Main = ({
   subheading = "Our Expertise",
   heading = (
     <>
@@ -100,3 +100,4 @@ export default ({
     </Container>
   );
 };
+export default Main;

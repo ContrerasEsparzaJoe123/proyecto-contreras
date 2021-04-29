@@ -1,5 +1,5 @@
 import React from "react";
-import Features from "./features/ThreeColWithSideImage";
+import Services from "./features/ThreeColWithSideImage";
 import tw from "twin.macro";
 
 class Servicios extends React.Component {
@@ -9,7 +9,7 @@ class Servicios extends React.Component {
     return (
       <div>
         <center>
-          <Features
+          <Services
             subheading={<Subheading>Servicios</Subheading>}
             heading={
               <>

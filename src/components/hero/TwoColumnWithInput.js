@@ -4,8 +4,6 @@ import tw from "twin.macro";
 //eslint-disable-next-line
 import { css } from "styled-components/macro";
 
-import Header from "../headers/light.js";
-
 import { ReactComponent as SvgDecoratorBlob1 } from "../../images/svg-decorator-blob-1.svg";
 import DesignIllustration from "../../images/design-illustration-2.svg";
 import CustomersLogoStripImage from "../../images/customers-logo-strip.png";
@@ -45,10 +43,9 @@ const CustomersLogoStrip = styled.div`
   }
 `;
 
-export default ({ roundedHeaderButton }) => {
+const Info = ({ roundedHeaderButton }) => {
   return (
     <>
-      {/*<Header roundedHeaderButton={roundedHeaderButton} />*/}
       <Container>
         <TwoColumn>
           <LeftColumn>
@@ -84,3 +81,4 @@ export default ({ roundedHeaderButton }) => {
     </>
   );
 };
+export default Info;
