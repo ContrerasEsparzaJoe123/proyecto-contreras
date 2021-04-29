@@ -14,25 +14,25 @@ function App() {
       <div className="container mt-3">
         <div className="row justify-content-center align-items-center minh-100">
           <div className="btn-group">
-            <Link to="/" className="btn btn-info">
+            <Link to="/" className="btn btn-primary">
               Inicio
             </Link>
-            <Link to="/login" className="btn btn-info">
+            <Link to="/login" className="btn btn-primary">
               Login
             </Link>
-            <Link to="/servicios" className="btn btn-info">
+            <Link to="/servicios" className="btn btn-primary">
               Servicios
             </Link>
-            <Link to="/nosotros" className="btn btn-info">
+            <Link to="/nosotros" className="btn btn-primary">
               Nosotros
             </Link>
-            <Link to="/ubicacion" className="btn btn-info">
+            <Link to="/ubicacion" className="btn btn-primary">
               Ubicacion
             </Link>
-            <Link to="/ayuda" className="btn btn-info">
+            <Link to="/ayuda" className="btn btn-primary">
               Ayuda
             </Link>
-            <Link to="/contacto" className="btn btn-info">
+            <Link to="/contacto" className="btn btn-primary">
               Contacto
             </Link>
           </div>
@@ -42,7 +42,6 @@ function App() {
             <center>
               <h1>Este es el root</h1>
               <Carusel />
-              
             </center>
           </Route>
           <Route path="/login" exact component={Login} />
